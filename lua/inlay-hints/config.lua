@@ -3,7 +3,7 @@ local M = {}
 local defaults = {
   -- renderer to use
   -- possible options are dynamic, eol, virtline and custom
-  renderer = "inlay-hints/render/dynamic",
+  renderer = "inlay-hints/render/inline",
 
   hints = {
     parameter = {
